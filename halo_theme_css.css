@@ -10,3 +10,7 @@
 .joe_detail__article h3 {
   font-size: 20px;
 }
+.joe_detail__article h2::before {
+    content: '# '!important;
+    color: #f22f27;
+}
