@@ -1,5 +1,6 @@
 html .joe_detail__article {
   font-size: 15px;
+  letter-spacing: 1.4px;
 }
 .joe_detail__article h1 {
   display:none; 
@@ -65,4 +66,8 @@ div.toc-container{
 .joe_detail__article h3::before {
   counter-increment: h3;
   content: counter(h2) "." counter(h3) "   ";
+}
+em {
+  font-style: normal;
+  color: #ccc;
 }
