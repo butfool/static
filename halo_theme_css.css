@@ -46,7 +46,8 @@ html .joe_detail__article {
 
 div.toc-container{
   width: auto;
-  max-width: 300px;
+  max-width: 350px;
+  min-width: 230px;
 }
 
 /* 设置页面上的数字分级 */
